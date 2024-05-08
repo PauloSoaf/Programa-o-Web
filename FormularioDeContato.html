@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Formulério de Contato</h1>
+  <p>Por favor, preencha o formulário abaixo e clique no botão Enviar Mensagem. Agradecemos por seu contato.</p>
+  <form id="login" >
+    <fieldset>
+      <legend>Dados Básicos</legend>
+      <label>Nome</label>
+      <input>
+      <br>
+      <label>E-mail</label>
+      <input type="email" placeholder="seunome@dominio.com.br">
+      <br>
+      <label>Website</label>
+      <input type="url" value="htttp://">
+    </fieldset>
+    <fieldset>
+      <legend>Seu curso no Instituto de Computação</legend>
+      <input type="radio">
+      <label>Ciência da Computação</label>
+      <br>
+      <input type="radio">
+      <label>Sistemas de Informação</label>
+      <br>
+      <input type="radio">
+      <label>Engenharia da Computação</label>
+      <br>
+      <input type="radio">
+      <label>Engenharia de Software</label>
+    </fieldset>
+    <fieldset>
+      <legend>Assinale as linguagens já usadas por você:</legend>
+      <label>Java</label>
+      <input type="checkbox">
+      <label>C</label>
+      <input type="checkbox">
+      <label>C++</label>
+      <input type="checkbox">
+      <label>Perl</label>
+      <input type="checkbox">
+      <label>Python</label>
+      <input type="checkbox">
+      <label>JavaScript</label>
+      <input type="checkbox">
+    </fieldset>
+    <fieldset>
+      <legend>Dados Complementares</legend>
+      <label>Cor favorita</label>
+      <input type="color">
+      <br>
+      <label>Data de nascimento</label>
+      <input type="date" placeholder="seunome@dominio.com.br">
+      <br>
+      <label>Ano de entrada em seu Curso do Icomp</label>
+      <input type="number" style="width: 3rem;" value=2000>
+      <br>
+      <label>Nota para este site</label>
+      <input type="range" value=0>
+    </fieldset>
+    <fieldset>
+      <legend>Área de atuação</legend>
+      <label></label>
+      <select>
+        <option>Banco de Dados</option>
+        <option>Web</option>
+      </select>
+    </fieldset>
+    <fieldset>
+      <legend>Submeta seu currículo vitae</legend>
+      <label></label>
+      <input type="file">
+    </fieldset>
+    <fieldset>
+      <legend>Digite sua Mensagem</legend>
+      <textarea>Este é o valor padrão</textarea>
+    </fieldset>
+  </form>
+  <br>
+  <button>Resetar Dados</button>
+  <button>Enviar Mensagem</button>
+</body>
+</html>
