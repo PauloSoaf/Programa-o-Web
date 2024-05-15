@@ -1,0 +1,9 @@
+div {
+    background-color: rgb(199, 199, 199);
+    border: 0.8rem solid black;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 65px;
+    border-bottom-left-radius: 65px;
+    border-bottom-right-radius: 30px;
+    padding: 1rem;
+}
