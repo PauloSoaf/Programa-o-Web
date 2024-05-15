@@ -1,0 +1,17 @@
+body {
+    background: url(./midia/NebulosaDoAnel.jpg);
+    background-position: 0 -25rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div {
+    background-color: rgba(0,0,0,0.5);
+    max-width: 30%;
+    color: white;
+    border: 0.5rem solid rgb(212, 142, 11);
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 2rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem 0.3rem black;
+}
