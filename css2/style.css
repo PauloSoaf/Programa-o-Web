@@ -1,17 +1,20 @@
 body {
-    background: url(./midia/NebulosaDoAnel.jpg);
-    background-position: 0 -25rem;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+    margin: 0;
+    padding: 0;
+    background: url(./midia/NebulosaDoAnel.jpg) no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+  }
 
 div {
     background-color: rgba(0,0,0,0.5);
-    max-width: 30%;
+    width: 20%;
+    height: min-content;
     color: white;
     border: 0.5rem solid rgb(212, 142, 11);
     border-radius: 1rem;
     padding: 1rem;
     margin: 2rem;
+    text-size-adjust: inherit;
     box-shadow: 0.5rem 0.5rem 0.5rem 0.3rem black;
 }
