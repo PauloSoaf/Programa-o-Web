@@ -1,6 +1,31 @@
+body {
+  background-color: #000;
+  color: #f00;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  outline: none;
+  user-select: none;
+}
+
+#scoreboard {
+  font-size: 2em;
+  margin-bottom: 20px;
+
+}
+
 #board {
   background-color: #ccc;
   border: 2px solid black;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #board td {
